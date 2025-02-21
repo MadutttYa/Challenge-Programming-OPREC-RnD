@@ -30,15 +30,11 @@ pip3 install opencv-python
 pip3 install numpy
 ```
 
-Setelahnya anda hanya perlu mengetikan kode di bawah ini untuk menjalankan kode.
-
-```bash
-python3 cari_warna.py
-```
+3. Jupyter Notebook/Jupyter Lab ([Link Dokumentasi](https://jupyter.org/install) atau VSCode dengan ekstensi jupyter notebook.
 
 ## Cara Bermain
 
-1. Run file python **`cari_warna.py`**, tunggu hingga webcam laptop/komputer anda muncul. Jika ternyata webcam anda tidak terdeteksi, anda bisa mengubah variabel **`cap`** dengan angka sampai webcam anda terdeteksi.
+1. Run file python **`cari_warna.ipynb`**, dengan cara mengeksekusi setiap sel notebook. Tunggu hingga webcam laptop/komputer anda muncul. Jika ternyata webcam anda tidak terdeteksi, anda bisa mengubah variabel **`cap`** dengan angka sampai webcam anda terdeteksi.
 
 2. Setelahnya akan ada text Find : ..., artinya anda diminta untuk mencari benda dengan warna tersebut. Untuk saat ini belum ada implementasi time limit sehingga ada dapat menggunakan waktu anda sampai menemukan barang dengan warna terkait. Akan ada timer 10 detik sebelum warna selanjutnya jika anda berhasil menemukan barang dengan warna tersebut.
    \*Perlu diperhatikan, saat sudah terdeteksi warnanya, agar timer berjalan anda perlu menyingkirkan barang tersebut sampai tidak terdeteksi oleh program.
