@@ -45,6 +45,15 @@ python3 cari_warna.py
 
 3. Game akan diloop sampai semua warna terdeteksi atau tidak ada sisa warna lagi yang perlu dideteksi.
 
+## Demonstrasi Kode
+
+
+
+https://github.com/user-attachments/assets/426645a5-1cf8-4053-bc00-060d5260d851
+
+Jika video tidak dapat terputar anda dapat mendowloadnya dari folder Dokumentasi dan Demonstrasi
+
+
 ## Kontrol
 
 - Tekan "n" untuk skip warna jika diinginkan, program akan langsung menganggap anda tidak memiliki benda dengan warna terkait sehingga warna tersebut tidak akan muncul lagi.
